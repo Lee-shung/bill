@@ -1,0 +1,45 @@
+
+.header {
+	background-color: #02ff89;
+}
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	box-sizing: border-box;
+	padding: 10rpx 24rpx;
+}
+.picker {
+	text-align: center;
+}
+.big {
+	font-weight: bold;
+	font-size: 42rpx;
+}
+.bottom_text {
+	line-height: 58rpx;
+}
+.bottom_text image {
+	width: 48rpx;
+	vertical-align: middle;
+}
+.charts {
+	background-color: #f9f9f9;
+}
+.charts .title {
+	font-size: 32rpx;
+	padding: 20rpx 24rpx;
+}
+.title image {
+	width: 36rpx;
+	vertical-align: -6rpx;
+	margin-left: 6rpx;
+}
+canvas {
+	width: 750rpx;
+	height: 500rpx;
+}
+
