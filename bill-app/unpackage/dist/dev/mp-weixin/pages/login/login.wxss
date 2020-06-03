@@ -1,0 +1,33 @@
+
+.head-view {
+	padding: 90rpx 50rpx;
+}
+.head-image-view {
+	display: block;
+	padding: 50rpx 50rpx 0 50rpx;
+}
+.head-image {
+	display: block;
+	margin: 0 auto;
+	width: 100rpx;
+	height: 100rpx;
+}
+.title-text {
+	padding: 50rpx 20rpx;
+	font-size: 28rpx;
+	color: #020e0f;
+	text-align: center;
+}
+.content-text {
+	padding-left: 50rpx;
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+}
+.auth-btn {
+	margin-top: 70rpx;
+	padding: 0 50rpx;
+	height: 90rpx;
+	font-size: 36rpx;
+}
+

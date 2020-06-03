@@ -1,0 +1,48 @@
+
+.picker {
+	font-size: 32rpx;
+}
+image {
+	width: 48rpx;
+	vertical-align: middle;
+}
+.select {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 20rpx 36rpx;
+	background-color: #f9f9f9;
+}
+.content {
+	padding: 0rpx 36rpx;
+}
+.content .item::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.item image {
+	width: 88rpx;
+	margin-right: 20rpx;
+	float: left;
+	padding: 36rpx 0;
+	vertical-align: middle;
+}
+.item .time {
+	width: 84%;
+	float: right;
+	padding: 36rpx 0;
+	border-bottom: 2rpx solid #C8C7CC;
+}
+.item .time::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.active {
+	color: #F0AD4E;
+}
+

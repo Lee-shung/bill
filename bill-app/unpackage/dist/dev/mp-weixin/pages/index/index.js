@@ -201,6 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var _uCharts = _interopRequireDefault(__webpack_require__(/*! ../../components/u-charts.js */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -247,8 +248,8 @@ var _uCharts = _interopRequireDefault(__webpack_require__(/*! ../../components/u
 //
 //
 //
+//
 var _this;var canvaPie;var _default = { data: function data() {return { date: '2020-06', total: '1200.00', width: '', height: '' };}, onLoad: function onLoad() {_this = this;this.width = uni.upx2px(750);this.height = uni.upx2px(500);this.showPie();console.log(this.width);}, methods: { showPie: function showPie() {canvaPie = new _uCharts.default({ $this: _this, canvasId: 'canvasPie', type: 'pie', fontSize: 11, legend: { show: true }, background: '#FFFFFF', pixelRatio: 1, series: [{ "name": "一班", "data": 50 }, { "name": "二班", "data": 30 }, { "name": "三班", "data": 20 }, { "name": "四班", "data": 18 }, { "name": "五班", "data": 8 }],
-
         animation: true,
         width: _this.width,
         height: _this.height,

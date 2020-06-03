@@ -87,17 +87,39 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+var _default =
 {
+
   onLaunch: function onLaunch() {
-    console.log('App Launch');
+    //获取用户授权信息
+    wx.getSetting({
+      success: function success(res) {
+        if (res.authSetting['scope.userInfo']) {
+          wx.getUserInfo({
+            success: function success(res) {
+              getApp().globalData.userInfo = res.userInfo;
+            } });
+
+        } else {
+          wx.navigateTo({
+            url: '/pages/login/login',
+            success: function success(res) {
+
+            } });
+
+        }
+      } });
+
   },
   onShow: function onShow() {
     console.log('App Show');
   },
   onHide: function onHide() {
     console.log('App Hide');
-  } };exports.default = _default;
+  },
+  globalData: {
+    userInfo: null } };exports.default = _default;
 
 /***/ }),
 /* 8 */
