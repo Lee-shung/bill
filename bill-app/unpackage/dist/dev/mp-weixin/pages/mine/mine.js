@@ -139,17 +139,82 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      userInfo: null };
+      userInfo: null,
+      isLogin: false };
 
   },
   onShow: function onShow() {
     this.userInfo = getApp().globalData.userInfo;
+    if (this.userInfo) {
+      this.isLogin = true;
+    }
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    login: function login() {
+      var _this = this;
+      //获取用户授权信息
+      wx.navigateTo({
+        url: '/pages/login/login' });
+
+    } } };exports.default = _default;
 
 /***/ }),
 

@@ -12,13 +12,6 @@
 								getApp().globalData.userInfo = res.userInfo;
 							}
 						});
-					} else {
-						wx.navigateTo({
-							url: '/pages/login/login',
-							success(res) {
-								
-							}
-						})
 					}
 				}
 			});

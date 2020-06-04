@@ -3,19 +3,16 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "小顺记账本"
 			}
 		},
 		{
 			"path": "pages/detail/detail",
 			"style": {
-				"navigationBarTitleText": "小顺记账本"
 			}
 		},
 		{
 			"path": "pages/mine/mine",
 			"style": {
-				"navigationBarTitleText": "小顺记账本"
 			}
 		}
 	    ,{
@@ -25,8 +22,8 @@
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#02ff89",
+		"navigationBarTitleText": "小顺记账本",
+		"navigationBarBackgroundColor": "#00aaff",
 		"backgroundColor": "#F8F8F8",
 		"onReachBottomDistance":20,
 		"enablePullDownRefresh": true

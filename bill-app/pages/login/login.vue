@@ -20,7 +20,7 @@
 			bindGetUserInfo (e) {
 				getApp().globalData.userInfo = e.detail.userInfo;
 				wx.switchTab({
-					url:'/pages/index/index'
+					url:'/pages/mine/mine'
 				})
 			}
 		}
@@ -43,13 +43,13 @@
 }
 .title-text {
 	padding: 50rpx 20rpx;
-	font-size: 28rpx;
+	font-size: 32rpx;
 	color: #020e0f;
 	text-align: center;
 }
 .content-text {
 	padding-left: 50rpx;
-	font-size: 14px;
+	font-size: 28rpx;
 	color: #666;
 	text-align: center;
 }

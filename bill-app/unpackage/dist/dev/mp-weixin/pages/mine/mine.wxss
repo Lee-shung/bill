@@ -1,8 +1,8 @@
 
 .header {
-	background-color: #02FF89;
+	background-color: #00aaff;
 }
-.header image {
+.header image, .avatar {
 	display: block;
 	width: 120rpx;
 	border-radius: 50%;
@@ -11,5 +11,58 @@
 .header .nikeName {
 	text-align: center;
 	margin-top: 10rpx;
+}
+.record {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 28rpx 30rpx 20rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	box-sizing: border-box;
+	width: 100%;
+}
+.record .item {
+	text-align: center;
+	color: #666666;
+}
+.record .item .num {
+	font-size: 36rpx;
+	font-weight: 700;
+	color: #DD524D;
+	line-height: 1.8;
+}
+.content {
+	width: 100%;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.content .list {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 30rpx;
+	background-color: #ffffff;
+	margin: 24rpx 0;
+	border-top: 2rpx solid #eeeeee;
+	border-bottom: 2rpx solid #eeeeee;
+}
+.list .child {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	line-height: 88rpx;
+	border-bottom: 2rpx solid #eeeeee;
+}
+.list .child:last-child {
+	border-bottom: none;
+}
+.child image {
+	width: 32rpx;
+	padding-top: 14px;
 }
 

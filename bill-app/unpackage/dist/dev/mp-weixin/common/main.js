@@ -101,13 +101,6 @@ var _default =
               getApp().globalData.userInfo = res.userInfo;
             } });
 
-        } else {
-          wx.navigateTo({
-            url: '/pages/login/login',
-            success: function success(res) {
-
-            } });
-
         }
       } });
 

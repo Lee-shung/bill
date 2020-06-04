@@ -63,8 +63,9 @@
 			this.width = uni.upx2px(750);
 			this.height = uni.upx2px(500);
 			this.showPie();
-			console.log(this.width)
-			
+		},
+		onShow() {
+			// this.showPie();
 		},
 		methods: {
 			showPie() {
@@ -118,7 +119,7 @@
 
 <style>
 	.header {
-		background-color: #02ff89;
+		background-color: #00aaff;
 	}
 
 	.top {

@@ -152,7 +152,7 @@ var _default =
     bindGetUserInfo: function bindGetUserInfo(e) {
       getApp().globalData.userInfo = e.detail.userInfo;
       wx.switchTab({
-        url: '/pages/index/index' });
+        url: '/pages/mine/mine' });
 
     } } };exports.default = _default;
 
