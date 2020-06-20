@@ -42,6 +42,10 @@
 				<canvas canvas-id="canvasPie" id="canvasPie" class="charts" @touchstart="touchPie"></canvas>
 			</view>
 		</view>
+		<!-- 记账按钮 -->
+		<view class="tally">
+			<image @click="tally" src="../../static/img/add-icon.png"></image>
+		</view>
 	</view>
 </template>
 
@@ -57,6 +61,8 @@
 				width: '',
 				height: ''
 			}
+		},
+		components:{
 		},
 		onLoad() {
 			_this = this;
@@ -112,12 +118,20 @@
 			},
 			touchPie(e) {
 
+			},
+			tally() {
+				wx.navigateTo({
+					url:'../tally/tally'
+				})
 			}
 		}
 	}
 </script>
 
 <style>
+	page {
+		position: relative;
+	}
 	.header {
 		background-color: #00aaff;
 	}
@@ -166,5 +180,17 @@
 	canvas {
 		width: 750rpx;
 		height: 500rpx;
+	}
+	.tally {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
+	.tally image {
+		width: 128rpx;
+		height: 128rpx;
+		margin: 0 auto;
+		display: block;
 	}
 </style>

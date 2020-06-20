@@ -19,6 +19,10 @@
             "path" : "pages/login/login",
             "style" : {}
         }
+        ,{
+            "path" : "pages/tally/tally",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -26,7 +30,14 @@
 		"navigationBarBackgroundColor": "#00aaff",
 		"backgroundColor": "#F8F8F8",
 		"onReachBottomDistance":20,
-		"enablePullDownRefresh": true
+		"enablePullDownRefresh": true,
+		"usingComponents": {
+			"van-popup": "/wxcomponents/vant/dist/popup/index",
+			"van-tab": "/wxcomponents/vant/dist/tab/index",
+			"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+			"van-tabbar": "/wxcomponents/vant/dist/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/vant/dist/tabbar-item/index"
+		}
 	},
 	"tabBar": {
 		"list": [

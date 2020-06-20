@@ -1,0 +1,36 @@
+
+.cate {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: left;
+	-webkit-justify-content: left;
+	        justify-content: left;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.cate .cate-item {
+	width: 33%;
+	text-align: center;
+	line-height: 68rpx;
+}
+.tally-detail image {
+	width: 36rpx;
+	height: 36rpx;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.left {
+	width: 80%;
+}
+.right {
+	width: 20%;
+}
+

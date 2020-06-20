@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/detail/detail",
     "pages/mine/mine",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/tally/tally"
   ],
   "subPackages": [],
   "window": {
@@ -36,5 +37,12 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "van-popup": "/wxcomponents/vant/dist/popup/index",
+    "van-tab": "/wxcomponents/vant/dist/tab/index",
+    "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+    "van-tabbar": "/wxcomponents/vant/dist/tabbar/index",
+    "van-tabbar-item": "/wxcomponents/vant/dist/tabbar-item/index"
+  },
+  "sitemapLocation": "sitemap42.json"
 }
